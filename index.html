@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gurmehar | Authentic Sikh Kade</title>
+    <title>Gurmehar | 20 Years of Authentic Sikh Kade</title>
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
@@ -11,6 +11,7 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.6;
         }
 
         /* Top Contact Bar */
@@ -41,7 +42,7 @@
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1615484477778-ca3b77940c25?auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
             background-position: center;
-            height: 350px;
+            height: 400px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -55,6 +56,28 @@
             margin: auto;
             padding: 40px 0;
         }
+
+        /* About Section */
+        .about-section {
+            text-align: center;
+            margin-bottom: 50px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .about-section h2 { color: #d4af37; margin-bottom: 15px; }
+
+        /* Feature Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        .feature-box { background: #fff; padding: 20px; border-radius: 8px; border-top: 4px solid #d4af37; }
 
         .product-grid {
             display: grid;
@@ -71,9 +94,7 @@
             transition: 0.3s;
         }
 
-        .product-card:hover {
-            transform: translateY(-5px);
-        }
+        .product-card:hover { transform: translateY(-5px); }
 
         .product-card img {
             width: 100%;
@@ -90,7 +111,6 @@
             margin: 10px 0;
         }
 
-        /* Button Styling */
         .btn-whatsapp {
             background-color: #25D366;
             color: white;
@@ -129,56 +149,82 @@
 <body>
 
     <div class="top-bar">
-        Order Now: +91 6280121480| Free Shipping on Bulk Orders
+        20 Years of Trust | Direct Wholesale Rates: +91 6280121480
     </div>
 
     <header>
         <h1>GURMEHAR</h1>
-        <p style="color: #d4af37;">Sarbloh & Steel Kade Collection</p>
+        <p style="color: #d4af37; letter-spacing: 2px;">PREMIUM KADA MANUFACTURER</p>
     </header>
 
     <div class="hero">
         <div>
-            <h2 style="font-size: 2.5em;">Authentic Sikh Kade</h2>
-            <p>Premium Quality | Direct from Craftsmen</p>
+            <h2 style="font-size: 3em; margin: 0;">20 Years of Craftsmanship</h2>
+            <p style="font-size: 1.2em;">Directly from the Manufacturer to Your Wrist.</p>
         </div>
     </div>
 
     <div class="container">
-        <h2 style="text-align: center; margin-bottom: 40px;">Humaray Best Sellers</h2>
+        
+        <div class="about-section">
+            <h2>Two Decades of Excellence in Every Curve</h2>
+            <p>At <strong>Gurmehar</strong>, we don’t just manufacture Kadas; we build relationships. With over <strong>20 years of experience</strong> in the industry, we have mastered the art of creating high-quality products that meet the highest standards of durability and finish.</p>
+            <p>From our workshop to your hands, every piece is crafted with care, ensuring a perfect finish and a lifetime of wear. Our legacy is built on the trust of thousands of satisfied customers and retailers across the country.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-box">
+                <h3>Direct Factory Rates</h3>
+                <p>No middlemen. Get the best wholesale & retail prices.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Premium Materials</h3>
+                <p>Pure Sarbloh, Stainless Steel, and Brass.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Expertise</h3>
+                <p>20 years of skilled manufacturing experience.</p>
+            </div>
+        </div>
+
+        <h2 style="text-align: center; margin-bottom: 40px;">Our Featured Collection</h2>
         
         <div class="product-grid">
             <div class="product-card">
                 <img src="https://via.placeholder.com/300x200?text=Sarbloh+Kada" alt="Sarbloh Kada">
                 <h3>Traditional Sarbloh Kada</h3>
-                <p class="price">499</p>
-                <a href="https://wa.me/6280121480?text=I%20want%20to%20buy%20Traditional%20Sarbloh%20Kada" class="btn-whatsapp">Order on WhatsApp</a>
+                <p>Pure Iron (Sarbloh) - Strong & Authentic</p>
+                <p class="price">Wholesale & Retail Available</p>
+                <a href="https://wa.me/6280121480?text=I%20want%20to%20enquire%20about%20Traditional%20Sarbloh%20Kada" class="btn-whatsapp">Enquire on WhatsApp</a>
             </div>
 
             <div class="product-card">
                 <img src="https://via.placeholder.com/300x200?text=Steel+Kada" alt="Steel Kada">
                 <h3>Mirror Finish Steel</h3>
-                <p class="price">799</p>
-                <a href="https://wa.me/6280121480?text=I%20want%20to%20buy%20Mirror%20Finish%20Steel%20Kada" class="btn-whatsapp">Order on WhatsApp</a>
+                <p>High-Grade Stainless Steel - Rust Free</p>
+                <p class="price">Best Market Price</p>
+                <a href="https://wa.me/6280121480?text=I%20want%20to%20enquire%20about%20Mirror%20Finish%20Steel%20Kada" class="btn-whatsapp">Enquire on WhatsApp</a>
             </div>
 
             <div class="product-card">
                 <img src="https://via.placeholder.com/300x200?text=Custom+Kada" alt="Custom Kada">
-                <h3>Engraved Name Kada</h3>
-                <p class="price">1,299</p>
-                <a href="https://wa.me/6280121480?text=I%20want%20to%20buy%20Custom%20Name%20Kada" class="btn-whatsapp">Order on WhatsApp</a>
+                <h3>Designer & Custom Kada</h3>
+                <p>Personalized Engraving & Heavy Designs</p>
+                <p class="price">Custom Quote</p>
+                <a href="https://wa.me/6280121480?text=I%20want%20to%20enquire%20about%20Custom%20Designer%20Kada" class="btn-whatsapp">Enquire on WhatsApp</a>
             </div>
         </div>
 
         <div class="contact-section">
-            <h2>Humein Call Karein</h2>
-            <p>Koi sawal hai? Seedha call karein ya WhatsApp par msg karein.</p>
-            <a href="tel:6280121480" class="phone-link"> +91 6280121480</a>
+            <h2>Wholesale & Bulk Inquiries</h2>
+            <p>Are you a shopkeeper or a distributor? Join our network of satisfied clients who have relied on us for the last 20 years. We offer the best margins and timely delivery for bulk orders.</p>
+            <p><strong>Call the Experts:</strong></p>
+            <a href="tel:6280121480" class="phone-link">+91 6280121480</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Gurmehar Arts. Made with Faith.</p>
+        <p>&copy; 2026 Gurmehar Arts. Strength You Can Wear. Quality You Can Trust.</p>
         <p>Waheguru Ji Ka Khalsa, Waheguru Ji Ki Fateh.</p>
     </footer>
 
